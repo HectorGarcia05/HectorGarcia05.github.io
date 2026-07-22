@@ -163,21 +163,14 @@ h2 {
   min-height: 100vh;
   max-width: 1040px;
   overflow: hidden;
-
-  background:
-    radial-gradient(
-      circle at 75% 45%,
-      rgba(255,255,255,0.12),
-      transparent 40%
-    );
 }
 
 .hero-watermark {
   position: absolute;
   top: 50%;
-  right: -20px;
+  right: -60px;
   transform: translateY(-50%);
-  width: 500px;
+  width: 480px;
   height: auto;
   opacity: 0.09;
   pointer-events: none;
