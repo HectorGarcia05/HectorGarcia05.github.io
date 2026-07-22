@@ -167,15 +167,15 @@ h2 {
   background:
     radial-gradient(
       circle at 75% 45%,
-      rgba(255,255,255,0.08),
-      transparent 35%
+      rgba(255,255,255,0.12),
+      transparent 40%
     );
 }
 
 .hero-watermark {
   position: absolute;
   top: 50%;
-  right: -30px;
+  right: -20px;
   transform: translateY(-50%);
   width: 500px;
   height: auto;
