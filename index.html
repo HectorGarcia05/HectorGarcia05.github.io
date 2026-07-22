@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hector Uribe García — Ingeniero en Electrónica y Computación. Desarrollo de software a medida, POS de escritorio y plataformas móviles, bajo la marca RavenStack." />
+    <meta name="keywords" content="Hector Uribe, RavenStack, ingeniería, Kotlin, Compose Desktop, desarrollo de software, punto de venta, portafolio" />
+    <meta property="og:title" content="Hector Uribe García — RavenStack" />
+    <meta property="og:description" content="Ingeniero en Electrónica y Computación. Software a medida para negocios reales." />
+    <meta property="og:image" content="./assets/ravenstack-logo.png" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./assets/ravenstack-logo.png" />
+    <title>Hector Uribe García — RavenStack</title>
+  </head>
+  <body>
+
+    <header>
+      <a href="#inicio" class="logo">
+        <img src="./assets/ravenstack-logo.png" alt="RavenStack" class="logo-mark" />
+        <span>Hector Uribe</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <div class="header-right">
+        <a href="#contacto" class="btn btn-nav">Contactar</a>
+      </div>
+    </header>
+
+    <section id="inicio">
+      <img src="./assets/raven-mark.png" alt="" class="hero-watermark" aria-hidden="true" />
+      <div class="hero-inner">
+        <p class="eyebrow">Ingeniería · Software · RavenStack</p>
+        <h1>Hector Uribe García</h1>
+        <p class="hero-lead">
+          Ingeniero en Electrónica y Computación. Diseño y desarrollo software
+          a la medida para negocios reales, de sistemas de punto de venta a
+          plataformas móviles.
+        </p>
+        <div class="hero-links">
+          <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+          <a href="#contacto" class="btn btn-ghost">Contactar</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider" aria-hidden="true"><span></span></div>
+
+    <section id="proyectos">
+      <p class="eyebrow eyebrow-center">Proyectos</p>
+      <h2>Trabajo seleccionado</h2>
+
+      <div class="projects">
+        <article class="project">
+          <div class="project-head">
+            <h3>Punto de Venta Abarrotes</h3>
+            <span class="project-status">En desarrollo</span>
+          </div>
+          <p>
+            Sistema de punto de venta de escritorio para pequeños negocios
+            de abarrotes: control de inventario, captura por código de
+            barras, ventas y reportes, con integración de impresora
+            térmica y cajón de dinero.
+          </p>
+          <div class="project-tags">
+            <span>Kotlin Compose Desktop</span>
+            <span>SQLite</span>
+            <span>ESC/POS</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>SaveLo</h3>
+            <span class="project-status">Emprendimiento propio</span>
+          </div>
+          <p>
+            Plataforma que conecta a consumidores con alimentos próximos a
+            caducar a precio reducido, con el objetivo de reducir el
+            desperdicio alimentario. Cofundador y responsable de la
+            documentación técnica del proyecto.
+          </p>
+          <div class="project-tags">
+            <span>Android</span>
+            <span>NestJS</span>
+            <span>Documentación técnica</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div class="divider" aria-hidden="true"><span></span></div>
+
+    <section id="sobre-mi">
+      <p class="eyebrow eyebrow-center">Sobre mí</p>
+      <h2>Perfil</h2>
+      <p class="about-text">
+        Curso el último semestre de Ingeniería en Electrónica y Computación
+        en el Centro Universitario de los Valles (CUValles), Universidad de
+        Guadalajara, actualmente finalizando mis prácticas profesionales.
+        Combino la formación en ingeniería con desarrollo de software
+        freelance, construyendo soluciones a la medida para pequeños
+        negocios y participando en proyectos propios de emprendimiento.
+      </p>
+      <div class="skills">
+        <span class="skill">C / C++</span>
+        <span class="skill">Python</span>
+        <span class="skill">C#</span>
+        <span class="skill">JavaScript / TypeScript</span>
+        <span class="skill">SQL</span>
+        <span class="skill">Kotlin Compose Desktop</span>
+        <span class="skill">Unity</span>
+        <span class="skill">Unreal Engine</span>
+        <span class="skill">NestJS</span>
+        <span class="skill">Android Studio</span>
+      </div>
+    </section>
+
+    <div class="divider" aria-hidden="true"><span></span></div>
+
+    <section id="contacto">
+      <p class="eyebrow eyebrow-center">Contacto</p>
+      <h2>Hablemos</h2>
+      <form action="https://formsubmit.co/hrgarcia@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="true" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="text" name="_honey" style="display:none" />
+        <input type="text" name="nombre" placeholder="Nombre" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <textarea name="mensaje" placeholder="Mensaje" rows="4" required></textarea>
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </section>
+
+    <footer>
+      <img src="./assets/ravenstack-logo.png" alt="RavenStack" class="footer-mark" />
+      <p>© 2026 Hector Uribe García — RavenStack</p>
+      <div class="footer-links">
+        <a href="https://github.com/HectorGarcia05" target="_blank" rel="noopener">GitHub</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </footer>
+
+    <script defer src="./script.js"></script>
+  </body>
+</html>
