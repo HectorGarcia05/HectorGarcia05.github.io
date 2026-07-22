@@ -168,7 +168,7 @@ h2 {
 .hero-watermark {
   position: absolute;
   top: 50%;
-  right: -30px;
+  right: -15px;
   transform: translateY(-50%);
   width: 480px;
   height: auto;
