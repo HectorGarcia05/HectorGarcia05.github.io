@@ -173,15 +173,17 @@ h2 {
 }
 
 .hero-watermark {
-  position: absolute;
-  top: 50%;
-  right: -20px;
-  transform: translateY(-50%);
-  width: 500px;
-  height: auto;
-  opacity: 0.09;
-  pointer-events: none;
-  user-select: none;
+  -webkit-mask-image: radial-gradient(
+    circle,
+    black 40%,
+    transparent 70%
+  );
+
+  mask-image: radial-gradient(
+    circle,
+    black 40%,
+    transparent 70%
+  );
 }
 
 .hero-inner {
