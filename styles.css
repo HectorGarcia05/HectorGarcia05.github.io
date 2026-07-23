@@ -203,7 +203,7 @@ h2 {
 .hero-watermark {
   position: absolute;
   top: 50%;
-  right: -15px;
+  right: -10px;
   transform: translateY(-50%);
   width: 480px;
   height: auto;
@@ -267,16 +267,24 @@ h2 {
   background: #e4e4e2;
 }
 
-.btn-ghost,
-.btn-nav {
+.btn-ghost {
   background: transparent;
   color: var(--ink);
   border: 1px solid var(--line-strong);
 }
 
-.btn-ghost:hover,
-.btn-nav:hover {
+.btn-ghost:hover {
   border-color: var(--white);
+}
+
+.btn-nav {
+  background: var(--white);
+  color: #0a0a0c;
+  border: none;
+}
+
+.btn-nav:hover {
+  background: #e4e4e2;
 }
 
 /* ===== Divider ===== */
@@ -385,7 +393,7 @@ h2 {
 
 .project-link {
   display: inline-block;
-  margin-top: 4px;
+  margin-top: 10px;
   font-family: var(--font-mono);
   font-size: 0.8rem;
   color: var(--ink);
