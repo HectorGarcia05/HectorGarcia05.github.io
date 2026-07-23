@@ -23,10 +23,11 @@ const translations = {
     project_view_repo: 'View repository ↗',
     project3_status: 'In development',
     project3_desc:
-      'iOS reading app built with Swift and Xcode, focused on making it easy to track and build a daily reading habit.',
-    project4_status: 'In development',
+      'iOS app that generates short stories with AI: the user picks the features they want in their story and the AI creates it, and can also read a PDF and turn it into a story. Designed for children, with a listening AI that follows along and guides the child until the story is finished.',
+    project4_status: 'Experimental project',
     project4_desc:
-      'Interactive Virtual Reality experience built in Unity, exploring 3D environments and real-time interaction mechanics.',
+      'Third-person horror game built as an experimental project in Unity, exploring tension, atmosphere, and pursuit mechanics.',
+    project4_tag_horror: 'Horror',
     about_eyebrow: 'About',
     about_title: 'Profile',
     about_text:
@@ -64,10 +65,11 @@ const translations = {
     project_view_repo: 'Ver repositorio ↗',
     project3_status: 'En desarrollo',
     project3_desc:
-      'Aplicación de lectura para iOS hecha con Swift y Xcode, enfocada en facilitar el seguimiento y la creación de un hábito diario de lectura.',
-    project4_status: 'En desarrollo',
+      'App para iOS que genera cuentos cortos con IA: el usuario elige las características que quiere para su cuento y la IA lo crea, además puede leer un PDF y convertirlo en cuento. Está pensada para niños, con una IA que escucha y da seguimiento al niño hasta que completa el cuento.',
+    project4_status: 'Proyecto experimental',
     project4_desc:
-      'Experiencia interactiva de Realidad Virtual hecha en Unity, explorando entornos 3D y mecánicas de interacción en tiempo real.',
+      'Juego de terror en tercera persona hecho como proyecto experimental en Unity, explorando tensión, atmósfera y mecánicas de persecución.',
+    project4_tag_horror: 'Terror',
     about_eyebrow: 'Acerca de',
     about_title: 'Perfil',
     about_text:
