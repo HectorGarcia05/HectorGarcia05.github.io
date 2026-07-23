@@ -19,6 +19,14 @@ const translations = {
     project2_desc:
       "Platform connecting consumers with near-expiration food at a reduced price, aimed at cutting food waste. Co-founder and lead on the project's technical documentation.",
     project2_tag_docs: 'Technical documentation',
+    project_collab_label: 'In collaboration with developer',
+    project_view_repo: 'View repository ↗',
+    project3_status: 'In development',
+    project3_desc:
+      'iOS reading app built with Swift and Xcode, focused on making it easy to track and build a daily reading habit.',
+    project4_status: 'In development',
+    project4_desc:
+      'Interactive Virtual Reality experience built in Unity, exploring 3D environments and real-time interaction mechanics.',
     about_eyebrow: 'About',
     about_title: 'Profile',
     about_text:
@@ -52,6 +60,14 @@ const translations = {
     project2_desc:
       'Plataforma que conecta a consumidores con alimentos próximos a caducar a precio reducido, con el objetivo de reducir el desperdicio de comida. Cofundador y responsable de la documentación técnica del proyecto.',
     project2_tag_docs: 'Documentación técnica',
+    project_collab_label: 'En colaboración con el desarrollador',
+    project_view_repo: 'Ver repositorio ↗',
+    project3_status: 'En desarrollo',
+    project3_desc:
+      'Aplicación de lectura para iOS hecha con Swift y Xcode, enfocada en facilitar el seguimiento y la creación de un hábito diario de lectura.',
+    project4_status: 'En desarrollo',
+    project4_desc:
+      'Experiencia interactiva de Realidad Virtual hecha en Unity, explorando entornos 3D y mecánicas de interacción en tiempo real.',
     about_eyebrow: 'Acerca de',
     about_title: 'Perfil',
     about_text:

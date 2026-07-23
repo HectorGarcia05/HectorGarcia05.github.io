@@ -207,7 +207,7 @@ h2 {
   transform: translateY(-50%);
   width: 480px;
   height: auto;
-  opacity: 0.09;
+  opacity: 0.16;
   pointer-events: none;
   user-select: none;
 }
@@ -366,6 +366,40 @@ h2 {
   border-radius: 3px;
 }
 
+.project-collab {
+  font-size: 0.85rem !important;
+  color: var(--ink-dim);
+  margin-top: -8px !important;
+  margin-bottom: 18px !important;
+}
+
+.project-collab a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.project-collab a:hover {
+  color: var(--white);
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--line-strong);
+  padding-bottom: 2px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.project-link:hover {
+  color: var(--white);
+  border-color: var(--white);
+}
+
 /* ===== About ===== */
 .about-text {
   text-align: center;
@@ -510,9 +544,12 @@ footer {
   }
 
   .hero-watermark {
-    width: 300px;
-    right: -80px;
-    opacity: 0.05;
+    width: 320px;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, -50%);
+    opacity: 0.1;
   }
 
   section {
