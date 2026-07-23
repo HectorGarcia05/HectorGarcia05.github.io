@@ -62,29 +62,43 @@
         <span>Corvus Stack</span>
       </a>
       <nav class="nav-links">
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a href="#projects" data-i18n="nav_projects">Projects</a>
+        <a href="#about" data-i18n="nav_about">About</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
       </nav>
       <div class="header-right">
-        <a href="./assets/Hector_Uribe_Resume.pdf" class="btn btn-nav" download>Download CV</a>
+        <a href="./assets/Hector_Uribe_Resume.pdf" class="btn btn-nav" data-i18n="nav_cv" download>Download CV</a>
+        <button
+          id="lang-toggle"
+          class="lang-toggle"
+          type="button"
+          aria-label="Change language / Cambiar idioma"
+          title="Change language / Cambiar idioma"
+        >
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+            <circle cx="12" cy="12" r="9" />
+            <ellipse cx="12" cy="12" rx="4" ry="9" />
+            <path d="M3 12h18M4.5 7.5h15M4.5 16.5h15" />
+          </svg>
+          <span id="lang-toggle-label">ES</span>
+        </button>
       </div>
     </header>
 
     <section id="home">
       <img src="./assets/corvus-mark-light.png" alt="" class="hero-watermark" aria-hidden="true" />
       <div class="hero-inner">
-        <p class="eyebrow">Engineering · Software</p>
+        <p class="eyebrow" data-i18n="hero_eyebrow">Engineering · Software</p>
         <h1>Corvus Stack</h1>
-        <p class="hero-by">by Héctor García</p>
-        <p class="hero-lead">
+        <p class="hero-by" data-i18n="hero_by">by Héctor García</p>
+        <p class="hero-lead" data-i18n="hero_lead">
           Electronics and Computer Engineer. I design and build custom
           software for real businesses, from desktop point-of-sale
           systems to mobile platforms.
         </p>
         <div class="hero-links">
-          <a href="#projects" class="btn btn-primary">View projects</a>
-          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+          <a href="#projects" class="btn btn-primary" data-i18n="hero_view_projects">View projects</a>
+          <a href="#contact" class="btn btn-ghost" data-i18n="hero_get_in_touch">Get in touch</a>
         </div>
       </div>
     </section>
@@ -92,16 +106,16 @@
     <div class="divider" aria-hidden="true"><span></span></div>
 
     <section id="projects">
-      <p class="eyebrow eyebrow-center">Projects</p>
-      <h2>Selected work</h2>
+      <p class="eyebrow eyebrow-center" data-i18n="projects_eyebrow">Projects</p>
+      <h2 data-i18n="projects_title">Selected work</h2>
 
       <div class="projects">
         <article class="project">
           <div class="project-head">
             <h3>Punto de Venta Abarrotes</h3>
-            <span class="project-status">In development</span>
+            <span class="project-status" data-i18n="project1_status">In development</span>
           </div>
-          <p>
+          <p data-i18n="project1_desc">
             Desktop point-of-sale system for small grocery stores:
             inventory control, barcode scanning, sales, and reporting,
             with thermal printer and cash drawer integration.
@@ -116,9 +130,9 @@
         <article class="project">
           <div class="project-head">
             <h3>SaveLo</h3>
-            <span class="project-status">Own venture</span>
+            <span class="project-status" data-i18n="project2_status">Own venture</span>
           </div>
-          <p>
+          <p data-i18n="project2_desc">
             Platform connecting consumers with near-expiration food at
             a reduced price, aimed at cutting food waste. Co-founder
             and lead on the project's technical documentation.
@@ -126,7 +140,7 @@
           <div class="project-tags">
             <span>Android</span>
             <span>NestJS</span>
-            <span>Technical documentation</span>
+            <span data-i18n="project2_tag_docs">Technical documentation</span>
           </div>
         </article>
       </div>
@@ -135,9 +149,9 @@
     <div class="divider" aria-hidden="true"><span></span></div>
 
     <section id="about">
-      <p class="eyebrow eyebrow-center">About</p>
-      <h2>Profile</h2>
-      <p class="about-text">
+      <p class="eyebrow eyebrow-center" data-i18n="about_eyebrow">About</p>
+      <h2 data-i18n="about_title">Profile</h2>
+      <p class="about-text" data-i18n="about_text">
         I'm in my final semester of Electronics and Computer Engineering
         at Centro Universitario de los Valles (CUValles), Universidad de
         Guadalajara, currently finishing my professional internship. I
@@ -174,26 +188,26 @@
     <div class="divider" aria-hidden="true"><span></span></div>
 
     <section id="contact">
-      <p class="eyebrow eyebrow-center">Contact</p>
-      <h2>Let's talk</h2>
+      <p class="eyebrow eyebrow-center" data-i18n="contact_eyebrow">Contact</p>
+      <h2 data-i18n="contact_title">Let's talk</h2>
       <form action="https://formsubmit.co/corvusstack@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="true" />
         <input type="hidden" name="_template" value="table" />
         <input type="text" name="_honey" style="display:none" />
-        <input type="text" name="name" placeholder="Name" required />
-        <input type="email" name="email" placeholder="Email" required />
-        <textarea name="message" placeholder="Message" rows="4" required></textarea>
-        <button type="submit">Send message</button>
+        <input type="text" name="name" placeholder="Name" data-i18n-placeholder="contact_name" required />
+        <input type="email" name="email" placeholder="Email" data-i18n-placeholder="contact_email" required />
+        <textarea name="message" placeholder="Message" data-i18n-placeholder="contact_message" rows="4" required></textarea>
+        <button type="submit" data-i18n="contact_send">Send message</button>
       </form>
     </section>
 
     <footer>
       <img src="./assets/corvusstack-logo.png" alt="Corvus Stack" class="footer-mark" />
-      <p>© 2026 Corvus Stack — by Héctor García</p>
+      <p data-i18n="footer_credit">© 2026 Corvus Stack — by Héctor García</p>
       <div class="footer-links">
         <a href="https://github.com/HectorGarcia05" target="_blank" rel="noopener">GitHub</a>
         <a href="https://www.linkedin.com/in/HectorGarcia05/" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="mailto:corvusstack@gmail.com">Email</a>
+        <a href="mailto:corvusstack@gmail.com" data-i18n="footer_email">Email</a>
       </div>
     </footer>
 

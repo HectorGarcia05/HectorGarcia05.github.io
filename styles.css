@@ -125,6 +125,41 @@ header {
   font-size: 0.85rem;
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background: transparent;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  color: var(--ink);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease, transform 0.15s ease;
+}
+
+.lang-toggle:hover {
+  border-color: var(--white);
+  color: var(--white);
+}
+
+.lang-toggle:active {
+  transform: scale(0.96);
+}
+
+.lang-toggle svg {
+  flex-shrink: 0;
+}
+
 /* ===== Sections ===== */
 section {
   padding: 96px 24px;
